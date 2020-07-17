@@ -33,4 +33,15 @@ class Melon(object):
 
 # FIXME: Add Squash class definition here.
 class Squash(Melon):
-    pass
+    """ Winter squash """
+
+    def __prep__(self):
+        """prepare winter squash"""
+       
+        # robots.cleanerbot.clean(self)
+        # robots.stickerbot.apply_logo(self)
+        # robots.painterbot.paint(self)
+
+        super().prep()
+        robots.painterbot.paint(self)
+
