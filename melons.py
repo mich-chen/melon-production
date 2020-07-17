@@ -35,7 +35,7 @@ class Melon(object):
 class Squash(Melon):
     """ Winter squash """
 
-    def __prep__(self):
+    def prep(self):
         """prepare winter squash"""
        
         # robots.cleanerbot.clean(self)
